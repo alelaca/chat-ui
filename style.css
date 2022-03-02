@@ -1,0 +1,73 @@
+:root {
+    --primary-color: #292D3E;
+    --secondary-color: #1B1E2B;
+    --third-color: #A6ABCD;
+    --forth-color: #1C1F2B;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.background-container {
+    background-color: var(--secondary-color);
+}
+
+.chat-panel {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.chat-text {
+    color: var(--third-color);
+}
+
+.message-background {
+    background-color: var(--forth-color);
+}
+
+.room-text {
+    color: var(--third-color);
+}
+
+.room-panel {
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.message {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: var(--forth-color);
+    color: var(--third-color);
+}
+
+.send-message-input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    margin-top: 20px;
+    width: 90%;
+    background-color: var(--forth-color);
+    color: var(--third-color);
+}
+
+.send-message-button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: var(--forth-color);
+    color: var(--third-color);
+}
